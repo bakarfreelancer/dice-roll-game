@@ -29,8 +29,8 @@ function roll1() {
   }
 }
 function roll2() {
-  let d1 = Math.floor(Math.random() * 3 + 1);
-  let d2 = Math.floor(Math.random() * 3 + 1);
+  let d1 = Math.floor(Math.random() * 6 + 1);
+  let d2 = Math.floor(Math.random() * 6 + 1);
   p2Score++;
   diceOne.src = `./resources/images/dice-${d1}.png`;
   diceTwo.src = `./resources/images/dice-${d2}.png`;
